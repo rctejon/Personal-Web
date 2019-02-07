@@ -34,7 +34,25 @@ a {
     text-decoration: none !important; }
 
 p {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+  color: black;
+   }
+
+   small {
+     color: whitesmoke;
+   }
+
+  i {
+    color: whitesmoke;
+  }
+
+  i:hover {
+    color: #F5AE51;
+  }
+
+p.black{
+  color: black;
+}
 
 h1, h2, h3, h4, h5, h6 {
   color: whitesmoke;
@@ -382,7 +400,6 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
   clear: both;
   width: 100%;
   display: block; }
@@ -822,7 +839,7 @@ body.offcanvas {
   text-align: left;
   width: 100%;
   float: left;
-  margin-bottom: 40px;
+  margin: 40px;
   position: relative; }
   .colorlib-feature .colorlib-icon {
     position: absolute;
@@ -1305,7 +1322,10 @@ body.offcanvas {
     box-shadow: none;
     border-color: transparent;
     background: #f0f0f0; }
-
+#Copyright{
+  text-align: center;
+  font-size: 75%;
+}
 #message {
   height: 130px; }
 
@@ -1437,3 +1457,7 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+  .black{
+    color: #000;
+  }
